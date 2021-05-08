@@ -1,0 +1,113 @@
+
+
+.react-chatbot-kit-chat-header{
+  display: flex !important;
+  justify-content: space-between !important;
+  align-items: center !important;
+  background-color: #FFFFFF !important;
+  color: #4A4A4A !important;
+  box-shadow: 0 1px 2px rgba(190, 190, 190, 0.5) !important;
+}
+.react-chatbot-kit-user-chat-message{
+  background-color: #0482dc !important;
+  color:white !important;
+}
+.react-chatbot-kit-user-chat-message-arrow{
+border-left: 8px !important;
+border-radius: 10px 2px 10px 10px;
+}
+.react-chatbot-kit-user-avatar-container{
+  background-color: lightgrey;
+}
+
+.react-chatbot-kit-chat-container {
+  /* position: relative; */
+  width: 100% !important;
+}
+.react-chatbot-kit-chat-bot-message{
+  color: black !important;
+  border-radius: 2px 10px 10px 10px !important;
+  width: auto !important;
+  max-width: 80%;
+}
+.react-chatbot-kit-chat-inner-container {
+  /* background: url('./Two-wheeler.png') no-repeat center center fixed !important; */
+  -webkit-background-size: cover !important;
+  -moz-background-size: cover !important;
+  -o-background-size: cover !important;
+  background-size: cover !important;
+
+  background-color:transparent !important;
+  min-height: 100vh !important;
+  /* margin-top: -5px; */
+}
+.react-chatbot-kit-chat-input-container{
+  position: sticky !important;
+  /* line-height: 20px !important; */
+  height: 47px !important;
+  width: 1382.4px !important;;
+  /* border:1px solid #D8D8D8 !important; */
+  margin:0 77px 0 77px !important;
+  /* display: flex !important; */
+  /* box-sizing:border-box; */
+  /* border-top-left-radius:30px;
+  border-top-right-radius:30px; */
+  padding: 6px 6px 6px 12px !important;
+
+  /* margin-bottom: -10px !important; */
+}
+.react-chatbot-kit-chat-bot-message{
+  margin-left:0px !important;
+}
+ .react-chatbot-kit-chat-message-container{
+  height:100vh !important; 
+  /* overflow: hidden !important; */
+   
+} 
+.react-chatbot-kit-chat-bot-avatar-container {
+  background-color: transparent !important;
+}
+
+
+
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #ffffff;
+  background: url('https://ev4all.in/wp-content/uploads/2020/07/j.jpg') no-repeat center center fixed !important;
+
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
